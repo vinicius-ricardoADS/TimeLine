@@ -1,0 +1,23 @@
+----- Configuração do ambiente -------
+
+- npm i -y - Cria uma configuração para um projeto javascript
+- npm i typescript -D - Adiciona uma dependência de desenvolvimento typescript utilizado apenas em ambiente de desenvolvimento
+- npm i @types/node -D - Proporciona para o typescript a habilidade de entender que ele está dentro de um projeto node
+- npx tsc --init - Configurar o ambiente para o projeto typescript
+- npm i tsx -D - Automatiza o processo de converter o typescript para javascript e já executar o código
+- npm i fastify - Framework utilizado para execução
+- npm i eslint -D - Cria um padrão de decodificação da equipe e do projeto
+- npm i @rocketseat/esling-config -D - Configuração própria existente da rocketseat com ambiente pronto, caso contrário 'npx esling --init' iria
+preparar o seu ambiente de desenvolvimento com base em perguntas feitas pela própria ferramenta para achar como seu código deve ser estruturado
+- npm i prisma -D - Ferramenta de desenvolvimento que suporta diversos tipos de bancos de dados
+- npx prisma init --datasource-provider SQLite - Especificando ao prisma para usar um banco do tipo SQLite e não o padrão que seria o Postgre
+- npx prisma migrate dev - Vai ler o schema.prisma presente no projeto e detectar todas as mudanças feitas nele desde a última modificação
+- npx prisma studio - Abre no navegador uma visualização do banco no prisma
+- npm i @prisma/client - Api não de desenvolvimento
+- npx create-next-app@latest nextjs-blog --use-npm - Na pasta externa cria um projeto front end de react com next.js
+- O Next ele faz todo o roteamento do sistema automaticamente com todo arquivo 'page.tsx' dentro da pasta src, proporcionando uma utilidade maior
+para criação de subpastas e diferentes rotas
+- npm i prettier-plugin-tailwindcss -D - Ferramenta para deixar o código mais bonito
+- npx create-expo-app my-app - Cria um projeto pra mobile
+- npm i nativewind - Parecido com o tailwind
+- npm i tailwindcss -D - Tail wind de desenvolvimento
